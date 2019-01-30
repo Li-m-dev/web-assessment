@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Website Assessment</title>
+    <link type="text/css" href="style.css" rel="stylesheet" />
+    <link type="text/css" href="normalize.css" rel="stylesheet" />
+    
+    <!--On-Page Styles -->
+    <style>
+        header {
+            display: block;
+            height: 955px;
+            width: 100%;
+            background-image: url('img/header-bg.png');
+            /* background-size:  */
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Helvetica;
+        }
+        .content-wrapper {
+            display: flex;
+            width:100%;
+            position: relative;
+            /* width: 1420px; */
+            padding: 20px 50px;
+        }
+        .content-wrapper h2{
+            color: #5D9DBD;
+        }
+        aside {
+            display:flex;
+            flex-direction: column;
+            width: 40%;
+            padding-left: 20px;
+        }
+        section {
+            display:flex;
+            flex-direction: column;
+            width: 60%;
+            padding:20px;
+            color:#7d7d7d;
+        }
+        .contact-wrapper{
+            display: flex;
+        }
+        pre {
+            font-family: Helvetica;
+            margin-right: 50px;
+            color:black;
+        }
+
+        .blog-item {
+            display: block;
+            margin: 15px 0;
+        }
+        .blog-item img{
+            width: 250px;
+            
+        }
+        footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #7d7d7d;
+            color: white;
+            border-top: solid 3px #5D9DBD;
+        }
+        /* #social-footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        } */
+        #social-list{
+            list-style: none;
+            display: flex;
+            padding: 0;
+        }
+        #social-list li{
+            padding: 0 10px;
+        }
+
+        #social-footer img {
+            width: 30px;
+            height: 30px;
+            padding: 0 10px;
+        }
+
+    </style>
+    
+</head>
+<body>	
+    <header>
+        <a id="logo" href="index.html" title=""><img src="./img/logo.png" /></a>
+        <ul id="social-list">
+            <li>Home</li>
+            <li>Work</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </header>
+    
+    <div class="content-wrapper">
+
+    <section>
+        <h2>About Us</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel placerat leo, at placerat metus. Nulla feugiat tellus vitae est lacinia, et ullamcorper ligula semper. Aliquam cursus laoreet posuere. Sed sodales ligula odio, id vehicula ante aliquet in. Vestibulum risus enim, condimentum at eleifend suscipit, facilisis quis nibh. Vestibulum bibendum pulvinar turpis, ac gravida velit vestibulum et. Proin nec enim ac sapien mollis viverra. Suspendisse interdum rutrum orci, ac dapibus lacus dignissim non. Phasellus dapibus interdum metus, vitae ornare orci convallis id. Morbi ut urna eu lorem laoreet aliquam at vel ligula. Integer eu bibendum ipsum, at varius nulla. Integer porttitor arcu eu leo tempor porta. Nam rutrum nisi quis mi egestas, quis iaculis justo eleifend.
+            <br>
+            <br>
+            Proin congue vestibulum auctor. Quisque non sapien a tortor consequat fermentum id sit amet tellus. Nulla suscipit a est id consequat. Duis consectetur porttitor dapibus. Aenean vitae libero at eros varius posuere. Nunc cursus consequat interdum. Suspendisse potenti. Etiam maximus laoreet sapien ut pulvinar. Nullam porta bibendum nibh, in feugiat enim eleifend eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi id massa tempor, rhoncus risus in, placerat ex. Curabitur eget egestas erat. Nullam cursus, ex eu iaculis placerat, neque tellus viverra risus, vel accumsan orci mauris a enim. Aenean varius, lorem id euismod sodales, ex ante sodales turpis, non elementum tellus mi ut diam. Nulla ac velit lacus.
+        </p>
+        <h2>Contact US</h2>
+        <div class="contact-wrapper">
+            <pre>
+Frisco Headquarters
+Software Developer Office
+3001 Dallas Parkway
+Suite #500
+Frisco, TX 75034
+            </pre>
+            <pre>
+                Toll Free: (888) 346-6334
+                Local: (214) 774-4262
+            </pre>
+        </div>
+    </section>
+        <hr>
+        <aside>
+            <h2>Blog</h2>
+            <div class="blog-item">
+                <img src="/img/blog1.png" alt="Do More computer" />
+                <h3>So you want to work at Code Authority?</h3>
+            </div>
+    
+            <div class="blog-item">
+                <img src="/img/blog2.jpg" alt="Do More computer" />
+                <h3>Become the best developer you can be</h3>
+            </div>   
+        </aside>
+
+
+
+    </div>
+    
+    <footer>
+        <ul id="social-list">
+                <li>Home</li>
+                <li>Work</li>
+                <li>About</li>
+                <li>Contact</li>
+        </ul>
+        <div id="social-footer">
+            <a href="http://www.facebook.com"><img src="./img/facebook-logo.PNG" alt="facebook" /></a>
+            <a title="Code Authority Twitter"><img src="./img/twitter-logo.png" alt="twitter" /></a>
+            <a title="Code Authority LinkedIn"><img src="./img/linkedin-logo.PNG" alt="LinkedIn" /></a>
+        </div>
+        <div>
+            <p>Privacy Policy | Copy Right 2017</p>
+        </div>
+
+    </footer>
+    
+</body>
+</html>
