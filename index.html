@@ -17,20 +17,25 @@
             display: block;
             height: 955px;
             width: 100%;
-            background-image: url('img/header-bg.png');
-            /* background-size:  */
+            background-image: url('/img/rawpixel-594848-unsplash.jpg');
+            background-size:cover;
+            background-repeat:no-repeat;
+            /* background-attachment:fixed; */
+            background-position:center; 
         }
         nav {
             display:flex;
             justify-content:space-evenly
-
+        }
+        nav li:hover{
+            color: #5D9DBD;
         }
 
         .content-wrapper {
             display: flex;
             position: relative;
             /* width: 1420px; */
-            padding: 20px 50px;
+            padding: 20px 70px;
         }
         .content-wrapper h2{
             color: #5D9DBD;
@@ -38,13 +43,13 @@
         aside {
             display:flex;
             flex-direction: column;
-            width: 40%;
+            width: 30%;
             padding: 0 20px;
         }
         section {
             display:flex;
             flex-direction: column;
-            width: 60%;
+            width: 70%;
             color:#7d7d7d;
             padding: 0 20px;
         }
@@ -75,11 +80,6 @@
             border-top: solid 3px #5D9DBD;
             min-width: 100vw;
         }
-        /* #social-footer{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        } */
         #social-list{
             list-style: none;
             display: flex;
@@ -93,6 +93,12 @@
             width: 30px;
             height: 30px;
             padding: 0 10px;
+        }
+        .phone-num{
+            position: absolute;
+            right: 100px; 
+            color:inherit;
+            text-decoration: none;
         }
 
     </style>
@@ -170,7 +176,7 @@ Frisco, TX 75034
         <div>
             <p>Privacy Policy | Copy Right 2017</p>
         </div>
-
+        <a class="phone-num" href="tel:214-774-4262">(214) 774-4262</a>
     </footer>
     
 </body>
